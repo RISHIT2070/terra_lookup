@@ -30,7 +30,7 @@ locals {
 }
 
 resource "aws_instance" "Infrasity" {
-  ami           = "ami-0c55b159cbfafe1f0"
+  ami           = "ami-068e0f1a600cd311c"
   instance_type = local.instance_type
   tags = {
     Name        = "Instance-1"
